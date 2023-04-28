@@ -1,0 +1,24 @@
+{
+  "name": "100hrs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilted2000/100hrs.git"
+  },
+  "author": "Richard Whittington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kilted2000/100hrs/issues"
+  },
+  "homepage": "https://github.com/kilted2000/100hrs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node": "^19.8.1",
+    "nodemon": "^2.0.22"
+  }
+}
