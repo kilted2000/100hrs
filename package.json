@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kilted2000/100hrs#readme",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "node": "^19.8.1",
     "nodemon": "^2.0.22"
