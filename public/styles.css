@@ -1,4 +1,38 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    background-color: darkolivegreen;
-  }
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header,
+section,
+footer {
+  width: 100%;
+}
+section {
+  height: 350px;
+}
+header {
+  background-color: #1726ec;
+  color: lightblue;
+}
+#nav,
+#headline {
+  height: 250px;
+}
+
+#cta,
+#dogPics {
+  background-color: #29885c;
+  color: lightskyblue;
+}
+footer {
+  background-color: #fff;
+  height: 50px;
+}
