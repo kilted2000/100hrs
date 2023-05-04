@@ -26,7 +26,10 @@ header {
 #headline {
   height: 250px;
 }
-
+#nav-img{
+  height: 300px;
+  width: 600px;
+}
 #cta,
 #dogPics {
   background-color: #29885c;
