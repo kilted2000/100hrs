@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: "Montserrat", sans-serif;
   background-color: #fff;
   height: 100vh;
@@ -19,7 +19,7 @@ section {
   height: 350px;
 }
 header {
-  background-color: #1726ec;
+  background-color: #1726ec; 
   color: lightblue;
 }
 #nav,
@@ -38,7 +38,9 @@ header {
 footer {
   background-color: #fff;
   height: 50px;
-}
+} */
+
+/* ***************************Template Code Below********************************** */
 /* tindog css */
 body {
   font-family: "Montserrat", sans-serif;
@@ -47,7 +49,7 @@ body {
 /* title */
 
 #title {
-  background-color: #ff4c68;
+  background-color: #1726ec;
   color: #fff;
 }
 h1 {
@@ -66,13 +68,13 @@ h1, h2, h3, h4, h5, h6{
 .container-fluid {
   padding: 3% 15% 7%;
 }
-.rotate_image {
+/* .rotate_image {
   -webkit-transform: rotate(25deg);
   -moz-transform: rotate(25deg);
   -ms-transform: rotate(25deg);
   -o-transform: rotate(25deg);
   transform: rotate(25deg);
-}
+} */
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -80,6 +82,10 @@ h1, h2, h3, h4, h5, h6{
 }
 .navbar {
   padding: 0 0 4.5rem;
+}
+#nav-img{
+  width: 14rem;
+  
 }
 .navbar-item {
   padding: 0 18px;
@@ -112,11 +118,11 @@ h1, h2, h3, h4, h5, h6{
   color: #8f8f8f;
 }
 .fi {
-  color: #ef8172;
+  color: #fff;
   margin-bottom: 1rem;
 }
 .fi:hover {
-  color: #ff4c68;
+  color: #fff;
 }
 #features {
   padding: 7% 15%;
@@ -134,7 +140,7 @@ h1, h2, h3, h4, h5, h6{
 
 #testimonials {
   text-align: center;
-  background-color: #ef8172;
+  background-color: #29885c;
   color: #fff;
 }
 h2 {
@@ -154,21 +160,28 @@ h2 {
 
 /* press */
 
-#press {
-  background-color: #ef8172;
+ #pics {
+  
   text-align: center;
   padding-bottom: 3%;
+ 
 }
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+} 
+.pic{
+  
+  
 }
+
 
 /* pricing */
 
 #pricing {
   padding: 100px;
   text-align: center;
+  background-color: #29885c;
 }
 .pricing-column {
   padding: 3% 2%;
@@ -192,7 +205,7 @@ h2 {
 /* call to action */
 
 #cta {
-  background-color: #ff4c68;
+  background-color: #1726ec;
   text-align: center;
   padding: 5% 25%;
 }
