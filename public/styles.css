@@ -187,6 +187,12 @@ h2 {
 .pricing-column {
   padding: 3% 2%;
 }
+.price{
+ justify-content: space-evenly;
+}
+.cards{
+  height: 25%;
+}
 
 /* title image */
 
