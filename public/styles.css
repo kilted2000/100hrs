@@ -42,8 +42,9 @@ h1, h2, h3, h4, h5, h6{
   padding: 0 0 4.5rem;
 }
 #nav-img{
+  position: relative;
   width: 14rem;
-  
+  right: 15%;
 }
 .navbar-item {
   padding: 0 18px;
@@ -58,7 +59,7 @@ h1, h2, h3, h4, h5, h6{
 .title-image {
   width: 60%;
   position: absolute;
-  right: 30%;
+  right: 10%;
 }
 
 /* features */
@@ -160,6 +161,7 @@ h2 {
 
 .phone-img {
   position: relative;
+  
 }
 @media (max-width: 1020px) {
   #title {
@@ -168,6 +170,7 @@ h2 {
   .title-image {
     position: static;
     transform: rotate(0);
+    
   }
 }
 
