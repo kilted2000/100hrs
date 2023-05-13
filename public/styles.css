@@ -118,11 +118,11 @@ h1, h2, h3, h4, h5, h6{
   color: #8f8f8f;
 }
 .fi {
-  color: #fff;
+  color: #1726ec;
   margin-bottom: 1rem;
 }
 .fi:hover {
-  color: #fff;
+  color: #29885c;
 }
 #features {
   padding: 7% 15%;
@@ -171,9 +171,9 @@ h2 {
   margin: 20px 20px 50px;
 } 
 .pic{
-  height: 10rem;
+  height: 13rem;
   width: 15rem;
-  
+  padding: 2rem;
 }
 
 
@@ -192,6 +192,10 @@ h2 {
 }
 .cards{
   height: 25%;
+}
+
+#card1{
+  margin-bottom: 9rem;
 }
 
 /* title image */
