@@ -1,47 +1,5 @@
-/* body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #fff;
-  height: 100vh;
-  width: 100vw;
-}
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-header,
-section,
-footer {
-  width: 100%;
-}
-section {
-  height: 350px;
-}
-header {
-  background-color: #1726ec; 
-  color: lightblue;
-}
-#nav,
-#headline {
-  height: 250px;
-}
-#nav-img{
-  height: 100px;
-  width: 150px;
-}
-#cta,
-#dogPics {
-  background-color: #29885c;
-  color: lightskyblue;
-}
-footer {
-  background-color: #fff;
-  height: 50px;
-} */
-
-/* ***************************Template Code Below********************************** */
-/* tindog css */
+/* BarkFriends css */
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -158,7 +116,7 @@ h2 {
   padding: 7% 15%;
 }
 
-/* press */
+/* image gallery */
 
  #pics {
   
