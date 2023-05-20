@@ -16,7 +16,7 @@ app.use(express.static("public"));
     res.sendFile(__dirname + "/index.html");
   });
   
-  
+
 
   router.post('/api/register', (req, res) => {
     // Handle the registration logic here
