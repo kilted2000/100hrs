@@ -8,7 +8,12 @@ const cool = require("cool-ascii-faces");
 
 const app = express();
 
-app.get()
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static("publics"));
+
+app.get("/", function (req, res) {      
+  res.sendFile(__dirname + "/index.html")
+})
 
 
 app.post("/", function (req, res) {

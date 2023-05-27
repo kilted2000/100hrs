@@ -11,9 +11,9 @@ ReactDOM.render(
 
 
 
-app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static("publics"));
+// app.use(bodyParser.urlencoded({extended: true}));
+// app.use(express.static("publics"));
 
-app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/soon.html")
-})
+// app.get("/", function (req, res) {
+//   res.sendFile(__dirname + "/soon.html")
+// })
