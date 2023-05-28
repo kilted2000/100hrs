@@ -1,9 +1,15 @@
 // //jshint esversion:6
 // const express = require("express");
 // const bodyParser = require("body-parser");
+<<<<<<< HEAD
 // // const router = express.Router();
 // const https = require("https");
 // const request = require("request");
+=======
+//  const router = express.Router();
+// const https = require("https");
+// const fetch = require('node-fetch');
+>>>>>>> eb379ba1ccf4db11b94472007537475c69ee0042
 // const cool = require("cool-ascii-faces");
 
 // const app = express();
@@ -61,15 +67,26 @@
 //   res.redirect("/")
 // })
 
+<<<<<<< HEAD
 //   // app.use('/', router);
 
 
 //   // module.exports = router;
+=======
+//    app.use('/', router);
+
+
+//   module.exports = router;
+>>>>>>> eb379ba1ccf4db11b94472007537475c69ee0042
 
 
 // app.listen(3000, ()=>{
 //     console.log("Server listening on Port 3000")
 // })
+<<<<<<< HEAD
+=======
+
+>>>>>>> eb379ba1ccf4db11b94472007537475c69ee0042
 const express = require("express");
 const bodyParser = require("body-parser");
 const router = express.Router();
